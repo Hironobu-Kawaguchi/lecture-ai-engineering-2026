@@ -10,5 +10,13 @@ __pycache__/
 # 個人の学習ログ（第3回の宿題で作成）は共有しない
 learning_log/
 
+# 受講者向け配布資料・宿題（個人保存用。講座資料はコミットしない）
+/course_materials/lectures/**
+!/course_materials/lectures/**/
+!/course_materials/lectures/**/.gitkeep
+/course_materials/homework/**
+!/course_materials/homework/**/
+!/course_materials/homework/**/.gitkeep
+
 # macOS
 .DS_Store
