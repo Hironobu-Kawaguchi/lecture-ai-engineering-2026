@@ -27,7 +27,8 @@ server = MCPServer(
 # 第3回と同じ関数を、そのまま MCP のツールとして公開する。docstring と型ヒントが説明文になる
 server.tool()(tools.search_glossary)
 
-# TODO(宿題・基礎): get_lecture_summary も公開しよう
+# 宿題（基礎）：各回の要点を返すツールも公開する
+server.tool()(tools.get_lecture_summary)
 
 
 def main() -> None:
